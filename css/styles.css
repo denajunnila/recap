@@ -1,0 +1,54 @@
+header, footer, nav{
+	width: 80%;
+	margin: 0px auto;
+	}
+
+header{
+	background-color: #53c653;
+	height:100px;
+}
+nav{
+	background-color: #ffad33;
+	height:80px;
+}
+main{
+	background-color: #3333ff;
+	width:60%;
+	height: 280px;
+	float:left;
+	margin-left:10%;
+}
+aside{
+	background-color: #ff3300;
+	width:20%;
+	height: 280px;
+	float: left;
+}
+.container{
+	margin-left:10%;
+
+}
+
+.boxes{
+	background-color: grey;
+	width:22%;
+	height: 200px;
+	float:left;
+	border: 1px solid black;
+
+}
+footer{
+	background-color: #2e2e1f;
+	clear: both;
+	height: 80px;
+}
+
+@media(max-width:600px){
+.boxes{
+	background-color: purple;
+	width:44%;
+	height: 200px;
+	float:left;
+    border: 1px solid black;
+
+}
